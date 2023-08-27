@@ -1,0 +1,11 @@
+version: '3'
+
+tasks:
+  default:
+    desc: show commands
+    cmds:
+      - task -l --sort none
+  hello:
+    desc: This task says Hello, World!
+    cmds:
+      - echo "Hello, World!"
