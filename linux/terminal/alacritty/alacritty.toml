@@ -1,5 +1,6 @@
 [window]
-opacity = 0.9
+opacity = 0.8
+
 
   [window.dimensions]
   columns = 100
@@ -10,7 +11,7 @@ opacity = 0.9
   y = 4
 
 [scrolling]
-history = 10_000
+history = 10000
 multiplier = 3
 
 [font]
