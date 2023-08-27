@@ -25,5 +25,4 @@ ln -sf ~/dotfiles/linux/zsh/.zshrc ~/.zshrc
 
 # 完了メッセージ
 echo "Installation complete. Restart your terminal."
-reboot
 
