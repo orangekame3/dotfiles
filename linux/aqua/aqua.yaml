@@ -17,3 +17,4 @@ packages:
 - name: Aloxaf/silicon@v0.5.1
 - name: Peltoche/lsd@0.23.1
 - name: tfutils/tfenv@v3.0.0
+- name: dylanaraps/neofetch@7.1.0
