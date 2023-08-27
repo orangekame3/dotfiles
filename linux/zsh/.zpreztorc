@@ -12,10 +12,11 @@ zstyle ':prezto:load' pmodule \
   'git' \
   'syntax-highlighting' \
   'history-substring-search' \
+  'autosuggestions' \
   'prompt'
 
 # Customize the prompt theme. The 'sorin' theme is the default.
-zstyle ':prezto:module:prompt' theme 'sorin'
+zstyle ':prezto:module:prompt' theme 'pure'
 
 # Set the key binding style to 'emacs' or 'vi'.
 zstyle ':prezto:module:editor' key-bindings 'emacs'
@@ -31,5 +32,6 @@ zstyle ':prezto:module:syntax-highlighting' color 'yes'
 zstyle ':prezto:module:history-substring-search' case-sensitive 'no'
 
 # ... Add other customizations ...
+PURE_PROMPT_SYMBOL=%B%F{1}❯%F{3}❯%F{2}❯%f%b
 
 
