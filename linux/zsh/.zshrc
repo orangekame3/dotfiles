@@ -7,3 +7,5 @@ export PATH="$GOPATH/bin:$PATH"
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
+# fzf
+source ~/.zshrc-fzf
