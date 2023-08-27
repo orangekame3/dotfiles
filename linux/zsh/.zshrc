@@ -11,3 +11,6 @@ fi
 # fzf
 source ~/z/z.sh
 source ~/.zshrc-fzf
+
+alias aquag='cd ~/.config/aqua && aqua g >> aqua.yaml'
+alias aquai='cd ~/.config/aqua && aqua i -l'
