@@ -9,7 +9,7 @@
 ./sh/init-aqua.sh
 ./sh/init-rustup.sh
 
-./terminal/init-alacritty/sh
+./terminal/init-alacritty.sh
 
 ./sh/init-symbolic.sh
 

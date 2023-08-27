@@ -29,6 +29,21 @@ sudo update-desktop-database
 cd $temp_dir
 cd ..
 rm -rf $temp_dir
+
+# ディレクトリパスとファイル名
+dir_path="$HOME/.config/alacritty"
+file_path="$dir_path/alacritty.toml"
+
+# ディレクトリが存在するか確認し、存在しない場合は作成
+if [ ! -d "$dir_path" ]; then
+    mkdir -p "$dir_path"
+fi
+
+# ファイルが存在するか確認し、存在しない場合は作成
+if [ ! -f "$file_path" ]; then
+    touch "$file_path"
+fi
+
 ln -sf ~/dotfiles/linux/terminal/alacritty/alacritty.toml ~/.config/alacritty/alacritty.toml
 # 終了
 echo "Alacrittyがインストールされました。"
