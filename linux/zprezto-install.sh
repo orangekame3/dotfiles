@@ -6,6 +6,6 @@ if [ ! -d "${ZDOTDIR:-$HOME}/.zprezto" ]; then
 fi
 
 # .zpreztorcのシンボリックリンクを作成
-ln -s ~/dotfiles/linux/zsh/.zpreztorc ~/.zpreztorc
+ln -sf ~/dotfiles/linux/zsh/.zpreztorc ~/.zpreztorc
 
 echo "Prezto has been installed and .zpreztorc has been linked."
