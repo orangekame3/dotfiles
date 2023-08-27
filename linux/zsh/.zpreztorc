@@ -1,0 +1,33 @@
+# Set the Prezto modules to load (browse modules).
+# The order matters.
+zstyle ':prezto:load' pmodule \
+  'environment' \
+  'terminal' \
+  'editor' \
+  'history' \
+  'directory' \
+  'spectrum' \
+  'utility' \
+  'completion' \
+  'git' \
+  'syntax-highlighting' \
+  'history-substring-search' \
+  'prompt'
+
+# Customize the prompt theme. The 'sorin' theme is the default.
+zstyle ':prezto:module:prompt' theme 'sorin'
+
+# Set the key binding style to 'emacs' or 'vi'.
+zstyle ':prezto:module:editor' key-bindings 'emacs'
+
+# Enable auto suggestions (this is like fish shell's suggestions).
+# Requires the 'zsh-autosuggestions' plugin to be installed.
+# zstyle ':prezto:module:autosuggestions' color 'fg=242'
+
+# Enable syntax highlighting with the default style.
+zstyle ':prezto:module:syntax-highlighting' color 'yes'
+
+# Enable substring history search with up and down arrow keys.
+zstyle ':prezto:module:history-substring-search' case-sensitive 'no'
+
+# ... Add other customizations ...
